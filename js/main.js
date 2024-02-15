@@ -509,10 +509,10 @@
 const adminButton = document.querySelector('.admin-button');
 const adminForm = document.querySelector('.admin-form');
 
-adminButton.addEventListener('dblclick', () => {
-    const alertBox = document.querySelector('.alert-box');
-    alertBox.classList.remove('hideit');
-});
+// adminButton.addEventListener('dblclick', () => {
+//     const alertBox = document.querySelector('.alert-box');
+//     alertBox.classList.remove('hideit');
+// });
 
 adminForm.addEventListener('submit', event => {
     event.preventDefault();
@@ -528,7 +528,7 @@ adminForm.addEventListener('submit', event => {
 particlesJS('particles-js', {
     particles: {
         number: { value: 300, density: { enable: true, value_area: 800 } },
-        color: { value: '#06FF00' },
+        color: { value: '#1d25cc' },
         shape: {
             type: 'circle',
             stroke: { width: 0, color: '#000000' },
@@ -570,3 +570,8 @@ particlesJS('particles-js', {
     },
     retina_detect: true,
 });
+const swiper = new Swiper('.swiper', {
+    autoplay: {
+      delay: 5000,
+    },
+  });

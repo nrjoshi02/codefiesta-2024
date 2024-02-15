@@ -92,7 +92,7 @@
     /* color-1(#eabe7c)
      * color-2(#23967f)
      */
-    --color-1: #06ff00;
+    --color-1: rgb(42, 42, 255);
     --color-2: hsla(168, 62%, 36%, 1);
 
     /* theme color variations
@@ -4051,7 +4051,7 @@ img.u-pull-left {
 .s-contact {
     --color-border: rgba(255, 255, 255, 0.05);
 
-    background-color: var(--color-2);
+    background-color: #3a3ac4;
     padding-top: var(--vspace-2);
     padding-bottom: var(--vspace-3);
     position: relative;
