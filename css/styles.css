@@ -3309,7 +3309,7 @@ img.u-pull-left {
 }
 
 .text-display-title {
-    --text-display-title-size: 6rem;
+    --text-display-title-size: 4rem;
     --text-multiplier: 1;
     font-family: var(--font-1);
     font-size: calc(var(--text-display-title-size) * var(--text-multiplier));
@@ -3830,6 +3830,18 @@ img.u-pull-left {
     right: 6.2rem;
     bottom: var(--vspace-1_5);
 }
+.s-register__scroll {
+    z-index: 2;
+    transform: rotate(90deg);
+    transform-origin: left bottom;
+    position: absolute;
+    left: 1.2rem;
+    bottom: var(--vspace-5_5);
+}
+.s-register__scroll a {
+    display: flex;
+    align-items: center
+}
 
 .s-intro__scroll a {
     display: flex;
@@ -3853,6 +3865,26 @@ img.u-pull-left {
 }
 
 .s-intro__scroll svg path {
+    fill: white;
+}
+
+.s-register__scroll span {
+    font-family: var(--font-2);
+    font-weight: 400;
+    font-size: calc(var(--text-size) * 0.6667);
+    line-height: 1;
+    text-transform: uppercase;
+    letter-spacing: 0.3em;
+    color: white;
+    margin-right: 1.6rem;
+}
+
+.s-register__scroll svg {
+    height: var(--vspace-0_625);
+    width: var(--vspace-0_625);
+}
+
+.s-register__scroll svg path {
     fill: white;
 }
 
@@ -4174,12 +4206,13 @@ img.u-pull-left {
         padding-left: 15px;
     }
     .events-content .right .timeline {
-        margin-top: 0;
+        margin-top: 5rem;
     }
     .events-content .left > h3,
     .events-content .right > h3 {
         text-align: center;
     }
+
 }
 
 @media only screen and (max-width: 600px) {
