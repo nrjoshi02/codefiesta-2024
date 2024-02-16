@@ -1265,7 +1265,8 @@ textarea {
     font-size: 30px;
     width: 100%;
     justify-content: space-around;
-    margin-bottom: 20px;
+    margin-top: -4.5rem;
+    margin-bottom: 2rem;
 }
 
 /* --------------------------------------------------------------------
@@ -4100,6 +4101,15 @@ img.u-pull-left {
     color: rgba(255, 255, 255, 0.5);
     margin-bottom: 0.9rem;
     font-family: 'montserrat-bold', sans-serif;
+}
+
+.timeline__header h2 {
+    font-size: 4rem;
+    color: #f2f5f4;
+    font-family: 'montserrat-medium', sans-serif;
+    line-height: 1.25;
+    margin: 0 0 1rem 0;
+    text-transform: capitalize;
 }
 
 .timeline__header h3 {
