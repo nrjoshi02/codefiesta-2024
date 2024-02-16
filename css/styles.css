@@ -79,10 +79,11 @@
  * ## fonts
  * ------------------------------------------------------------------- */
 @import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Inter:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('fonts.css');
 
 :root {
-    --font-1: 'Lora', serif;
+    --font-1: 'Montserrat', sans-serif;
     --font-2: 'Inter', sans-serif;
 
     /* monospace
@@ -3946,8 +3947,8 @@ img.u-pull-left {
     --text-multiplier: 1;
 
     background-color: white;
-    padding-top: var(--vspace-2);
-    padding-bottom: var(--vspace-6);
+    padding-top: var(--vspace-1);
+    padding-bottom: var(--vspace-4);
 }
 
 .s-about .text-pretitle::before {
@@ -3966,7 +3967,8 @@ img.u-pull-left {
 
 .s-about__desc {
     font-weight: 500;
-    font-size: calc(var(--text-desc-size) * var(--text-multiplier));
+    font-family: var(--font-1);
+    font-size: calc(var(--text-xxl) * var(--text-multiplier));
     line-height: 1.5385;
     margin-top: var(--vspace-1_5);
 }
@@ -5104,5 +5106,5 @@ img.u-pull-left {
 }
 
 .slideshow img:nth-child(7) {
-    animation: imageChange 14s infinite 12s; 
+    animation: imageChange 14s infinite 12s;
 }
