@@ -3992,6 +3992,14 @@ img.u-pull-left {
     height: var(--vspace-3_5);
     margin: 0 auto var(--vspace-0_5);
 }
+.clients-block .text-pretitle::before{
+    content: '';
+    display: block;
+    background-color: var(--color-text-light);
+    width: 2px;
+    height: var(--vspace-3_5);
+    margin: 0 auto var(--vspace-0_5);
+}
 
 .s-about__content {
     max-width: 1000px;
