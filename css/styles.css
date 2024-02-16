@@ -3989,7 +3989,7 @@ img.u-pull-left {
     display: block;
     background-color: var(--color-text-light);
     width: 2px;
-    height: var(--vspace-3_5);
+    height: var(--vspace-2);
     margin: 0 auto var(--vspace-0_5);
 }
 .clients-block .text-pretitle::before{
