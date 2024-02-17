@@ -3300,7 +3300,7 @@ img.u-pull-left {
     font-family: var(--font-2);
     font-size: var(--text-size);
     font-weight: 600;
-    color: var(--color-black);
+    color: var(--color-white);
     text-transform: uppercase;
     letter-spacing: 0.2em;
     margin-top: 0;
@@ -3979,7 +3979,7 @@ img.u-pull-left {
     --text-desc-size: 5.2rem;
     --text-multiplier: 1;
 
-    background-color: white;
+    background-color: var(--color-black);
     padding-top: var(--vspace-1);
     padding-bottom: var(--vspace-4);
 }
@@ -3987,7 +3987,7 @@ img.u-pull-left {
 .s-about .text-pretitle::before {
     content: '';
     display: block;
-    background-color: var(--color-text-light);
+    background-color: var(--color-white);
     width: 2px;
     height: var(--vspace-2);
     margin: 0 auto var(--vspace-0_5);
@@ -4012,10 +4012,11 @@ img.u-pull-left {
     font-size: calc(var(--text-xxl) * var(--text-multiplier));
     line-height: 1.5385;
     margin-top: var(--vspace-1_5);
+    color: var(--color-white);
 }
 
 .s-about__desc span {
-    color: var(--color-2);
+    color: var(--color-white);
 }
 
 /* -------------------------------------------------------------------
