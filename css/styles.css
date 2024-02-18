@@ -3412,7 +3412,7 @@ img.u-pull-left {
     vertical-align: bottom;
 }
 
-.amrita-logo {
+.pesmcoe-logo {
     width: 250px;
     margin-top: 30px;
     margin-left: calc(100vw - 280px);
@@ -3423,13 +3423,13 @@ img.u-pull-left {
         width: 150px;
     }
 
-    .amrita-logo {
+    .pesmcoe-logo {
         margin-left: calc(100vw - 250px);
     }
 }
 
 @media screen and (max-width: 700px) {
-    .amrita-logo {
+    .pesmcoe-logo {
         width: 200px;
         margin-left: calc(100vw - 220px);
     }
@@ -3440,7 +3440,7 @@ img.u-pull-left {
         width: 120px;
     }
 
-    .amrita-logo {
+    .pesmcoe-logo {
         margin-top: 20px;
         margin-left: calc(100vw - 180px);
     }
