@@ -3416,6 +3416,7 @@ img.u-pull-left {
     width: 350px;
     height: auto;
     margin-top: 3px;
+    top: 2.2rem;
     margin-left: calc(100vw - 190px);
 }
 
@@ -3442,7 +3443,7 @@ img.u-pull-left {
     }
 
     .pesmcoe-logo {
-        margin-top: 20px;
+        margin-top: 1px;
         margin-left: calc(100vw - 150px);
     }
 }
