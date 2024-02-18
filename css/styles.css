@@ -3406,8 +3406,9 @@ img.u-pull-left {
 }
 
 .s-header__logo img {
-    width: 190px;
+    width: 100px;
     margin: 0;
+    height: auto;
     vertical-align: bottom;
 }
 
