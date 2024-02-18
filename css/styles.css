@@ -3413,9 +3413,10 @@ img.u-pull-left {
 }
 
 .pesmcoe-logo {
-    width: 250px;
-    margin-top: 30px;
-    margin-left: calc(100vw - 280px);
+    width: 350px;
+    height: auto;
+    margin-top: 3px;
+    margin-left: calc(100vw - 190px);
 }
 
 @media screen and (max-width: 900px) {
@@ -3424,14 +3425,14 @@ img.u-pull-left {
     }
 
     .pesmcoe-logo {
-        margin-left: calc(100vw - 250px);
+        margin-left: calc(100vw - 200px);
     }
 }
 
 @media screen and (max-width: 700px) {
     .pesmcoe-logo {
         width: 200px;
-        margin-left: calc(100vw - 220px);
+        margin-left: calc(100vw - 170px);
     }
 }
 
@@ -3442,7 +3443,7 @@ img.u-pull-left {
 
     .pesmcoe-logo {
         margin-top: 20px;
-        margin-left: calc(100vw - 180px);
+        margin-left: calc(100vw - 150px);
     }
 }
 
